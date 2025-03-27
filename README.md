@@ -1,5 +1,5 @@
 # Worksheet 2: Yatzy Game Implementation
-# Worksheet 2: Yatzy Game Implementation
+
 
 This folder contains the implementation of the Yatzy game in Python, along with tests and GitHub Actions for automated testing.
 
