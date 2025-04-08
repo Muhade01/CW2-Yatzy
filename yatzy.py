@@ -7,10 +7,12 @@ class Yatzy:
         self.roll()
 
     def roll(self):
+        if all(self.locked):  # Check if all dice are locked
+            print("All dice are locked, cannot roll!")
+            return  # Exit the method
         for i in range(5):
             if not self.locked[i]:
                 self.dice[i] = random.randint(1, 6)
-
     def lock_die(self, index):
         if 0 <= index < 5:
             self.locked[index] = True
@@ -110,3 +112,6 @@ class Yatzy:
         if all(d == self.dice[0] for d in self.dice):
             return 50
         return 0
+    
+
+      
