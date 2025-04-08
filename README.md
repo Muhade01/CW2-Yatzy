@@ -27,5 +27,28 @@ This folder contains the implementation of the Yatzy game in Python, along with 
    - Verified the tests passed in the GitHub Actions tab.
    - See `screenshots/github-actions-example.png` for the successful test run.
 
+Worksheet 3: Using GitHub Issues for Collaboration (Practice Run)
+
+### Steps
+1. **Created a Branch**:
+   - Made a `collaboration-practice` branch to work on fixes.
+2. **Used GitHub Issues**:
+   - Classmate (`Classmate01`) created Issue #3: "Bug in `roll()` Method When All Dice Are Locked".
+3. **Fixed the Issue**:
+   - Updated `roll()` to print a message if all dice are locked.
+   - Tested the fix with `yatzy_game.py`.
+4. **Merged Changes**:
+   - Created a pull request for the `collaboration-practice` branch.
+   - Classmate reviewed and approved the PR.
+   - Merged the PR into `main` and closed Issue #3.
+5. **Main Obstacles and Concerns**:
+   - **Obstacles**:
+     - Had trouble with Git because I was in the wrong folder (`portfolio` instead of `CW2-Yatzy`).
+     - Got indentation errors in `yatzy.py` (like "Unindent amount does not match previous indent").
+     - Took time to understand why the `roll()` message was needed.
+   - **Concerns**:
+     - Need to be careful with Git folders to avoid errors.
+     - Should use VS Code to fix indentation automatically.
+     - Manual testing works, but automated tests would be better.
 ## Repository
 Link: [CW2-Yatzy](https://github.com/Muhade01/CW2-Yatzy)
