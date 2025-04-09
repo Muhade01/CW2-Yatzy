@@ -33,7 +33,7 @@ Worksheet 3: Using GitHub Issues for Collaboration (Practice Run)
 1. **Created a Branch**:
    - Made a `collaboration-practice` branch to work on fixes.
 2. **Used GitHub Issues**:
-   - Classmate (`Classmate01`) created Issue #3: "Bug in `roll()` Method When All Dice Are Locked".
+   - Classmate (`Harsh Kumar`) created Issue #3: "Bug in `roll()` Method When All Dice Are Locked".
 3. **Fixed the Issue**:
    - Updated `roll()` to print a message if all dice are locked.
    - Tested the fix with `yatzy_game.py`.
